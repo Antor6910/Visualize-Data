@@ -1,0 +1,21 @@
+from matplotlib import pyplot as plt
+
+#X axies values
+x=[5,2,7]
+#y axis values
+y=[1,10,4]
+
+
+#set title for the graph
+plt.title("Line Graph")
+
+#set axis name
+plt.xlabel("X-axis")
+plt.ylabel("Y-axis")
+
+#plot the graph
+plt.plot(x,y)
+
+
+#show the graph
+plt.show()
