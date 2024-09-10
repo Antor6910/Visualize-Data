@@ -1,0 +1,15 @@
+import matplotlib.pyplot as plt
+import numpy as np
+y=np.array([35,25,25,15])
+
+#create labels
+mylabels=["Apple","Bannana","cherries","Dates"]
+
+#use title
+plt.title("Pie Graph")
+
+#plot the pie graph
+plt.pie(y,labels=mylabels)
+
+#display the pie graph
+plt.show()
